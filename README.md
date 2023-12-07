@@ -1,5 +1,7 @@
 # Stoc Sim 3
 
+**Due date**:  Thursday 21st December
+
 
 ## Tasks
 **Meeting date**: 7/12
