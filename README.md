@@ -24,8 +24,8 @@ Currently working on report methods...
 
 ### JASPER
 - [ ] Review Stoc Book
-- [ ] Find best data structure for the soluton (numpy?)
-- [ ] First working code
+- [X] Find best data structure for the soluton (numpy?)
+- [X] First working code
 
  ### JUAN
 - [X] Report: Research and understand annealing 
