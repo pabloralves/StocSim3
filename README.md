@@ -15,12 +15,13 @@
 - [ ] Read intro & methods together (11/12)
 
 ### PABLO
-Currently working on reading optimal solution txt files to check if we reach global optimum.
+
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
 - [ ] Learn how to properly do stat testing (10/12)
-- [ ] Improve Jasper's innitial code (9/12)
+- [X] Improve Jasper's code: read optimal solution files and use them to check if global optimum was reached (9/12)
+- [ ] Improve Jasper's code: 
 
 ### JASPER
 - [ ] Review Stoc Book
