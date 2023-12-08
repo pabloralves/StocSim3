@@ -12,16 +12,14 @@
 **Meeting date**: 7/12 (Pablo, Jasper, Juan)
 
 ### GROUP
-- [ ] Read intro & methods together (11/12)
+- [ ] Read intro & methods together (Monday 11/12)
 
 ### PABLO
-Working on plotting score evolution through time
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
-- [ ] Learn how to properly do stat testing (10/12)
-- [X] Improve Jasper's code: read optimal solution files and use them to check if global optimum was reached (9/12)
-- [ ] Improve Jasper's code: 
+- [X] Improve Jasper's code
+- [ ] Learn how to properly do stat testing (10/12 w/ Juan)
 
 ### JASPER
 - [ ] Review Stoc Book
