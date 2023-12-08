@@ -12,15 +12,14 @@
 **Meeting date**: 7/12 (Pablo, Jasper, Juan)
 
 ### GROUP
-- [ ] Read intro & methods together (11/12)
+- [ ] Read intro & methods together (Monday 11/12)
 
 ### PABLO
-Currently working on report methods...
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
-- [ ] Learn how to properly do stat testing (10/12)
-- [ ] Improve Jasper's innitial code (9/12)
+- [X] Improve Jasper's code
+- [ ] Learn how to properly do stat testing (10/12 w/ Juan)
 
 ### JASPER
 - [ ] Review Stoc Book
