@@ -19,6 +19,7 @@ Currently working on report methods...
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
+- [ ] Learn how to properly do stat testing (10/12)
 - [ ] Improve Jasper's innitial code (9/12)
 
 ### JASPER
