@@ -15,7 +15,7 @@
 - [ ] Read intro & methods together (11/12)
 
 ### PABLO
-Currently working on report methods...
+Currently working on reading optimal solution txt files to check if we reach global optimum.
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
