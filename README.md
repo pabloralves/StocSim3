@@ -6,7 +6,9 @@
 
 ## Tasks
 **Next meeting**: Monday 11/12, 17h
+
 **Meeting date**: 8/12 (Pablo, Juan)
+
 **Meeting date**: 7/12 (Pablo, Jasper, Juan)
 
 ### GROUP
