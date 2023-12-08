@@ -2,15 +2,25 @@
 
 **Due date**:  Thursday 21st December
 
+**Overleaf link**: https://www.overleaf.com/project/6571ed26196307d20452f284
 
 ## Tasks
-**Meeting date**: 7/12
+**Next meeting**: Monday 11/12, 17h
+
+**Meeting date**: 8/12 (Pablo, Juan)
+
+**Meeting date**: 7/12 (Pablo, Jasper, Juan)
+
+### GROUP
+- [ ] Read intro & methods together (11/12)
+
 ### PABLO
-Currently working on report basics...
+Currently working on report methods...
 - [X] Create ReadMe
-- [ ] Report: Intro (7/12)
-- [ ] Report: Methods: 3 algorithms - text and understanding (8/12) (f. Juan)
-- [ ] 
+- [X] Report: Intro (7/12)
+- [X] Report: Methods: text and understanding (8/12)
+- [ ] Learn how to properly do stat testing (10/12)
+- [ ] Improve Jasper's innitial code (9/12)
 
 ### JASPER
 - [ ] Review Stoc Book
@@ -18,7 +28,9 @@ Currently working on report basics...
 - [ ] First working code
 
  ### JUAN
-- [ ] Report: Methods: 3 algorithms (8/12)
+- [X] Report: Research and understand annealing 
+- [ ] Report: Methods: 3 algorithms (11/12)
+- [ ] Report: Annealing algorthm (11/12)
 
 
 ## Rules
