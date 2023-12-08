@@ -15,7 +15,7 @@
 - [ ] Read intro & methods together (11/12)
 
 ### PABLO
-
+Working on plotting score evolution through time
 - [X] Create ReadMe
 - [X] Report: Intro (7/12)
 - [X] Report: Methods: text and understanding (8/12)
