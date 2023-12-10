@@ -27,6 +27,7 @@
 - [ ] Review Stoc Book
 - [X] Find best data structure for the soluton (numpy?)
 - [X] First working code
+- [X] Implement simulated annealing and several mutation functions
 
  ### JUAN
 - [X] Report: Research and understand annealing 
