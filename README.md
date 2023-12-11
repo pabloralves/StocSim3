@@ -31,8 +31,8 @@
 
  ### JUAN
 - [X] Report: Research and understand annealing 
-- [ ] Report: Methods: 3 algorithms (11/12)
-- [ ] Report: Annealing algorthm (11/12)
+- [X] Report: Methods: 3 algorithms (11/12). No information was found, added brief description.
+- [X] Report: Annealing algorthm (11/12)
 - [ ] Stat testing: find how to add T-Test, U-Test... (11/12)
 
 
