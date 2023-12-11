@@ -17,7 +17,7 @@
 
 
 ### GROUP
-- [ ] Read intro & methods together (Monday 11/12)
+- [X] Read intro & methods together (Monday 11/12)
 
 ### PABLO
 - [X] Create ReadMe
