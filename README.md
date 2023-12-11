@@ -11,6 +11,11 @@
 
 **Meeting date**: 7/12 (Pablo, Jasper, Juan)
 
+**Meeting date**: 12/12 (Pablo Juan) 
+
+**Meeting date**: 14/12 (Pablo, Jasper, Juan) -> ALL CODE DONE 
+
+
 ### GROUP
 - [ ] Read intro & methods together (Monday 11/12)
 
@@ -22,18 +27,21 @@
 - [X] Learn how to properly do stat testing (10/12 w/ Juan)
 - [ ] Review additional stat testing (10/12)
 - [ ] Add confidence interval to code -> several runs conf. of score (11/12)
+- [ ] Add methods discussed to report (12/12)
+- [ ] Compare statistically different mutation method (12/12)
 
 ### JASPER
-- [ ] Review Stoc Book
 - [X] Find best data structure for the soluton (numpy?)
 - [X] First working code
 - [X] Implement simulated annealing and several mutation functions
+- [ ] Innitial temperature setting / stopping criteria (once 2-OPT is ready)
 
  ### JUAN
 - [X] Report: Research and understand annealing 
 - [X] Report: Methods: 3 algorithms (11/12). No information was found, added brief description.
 - [X] Report: Annealing algorthm (11/12)
-- [ ] Stat testing: find how to add T-Test, U-Test... (11/12)
+- [X] Stat testing: find how to add T-Test, U-Test... (11/12)
+- [ ] 2-OPT code
 
 
 ## Rules
@@ -83,15 +91,27 @@ It would be like the one in our last assignments
 
 
 #### Meeting consensus
-1. Innitial temperature: There is no significant literature, only physical limits but are too extreme and thus not helpful for us. Instead, use acceptance probabilities plots to tune parameters -> alpha between 0 and 1. beta and iinitial can be anything...  c and d not sure...
-2. Mutation does not need parameters, so not need to pick it :), meaning before parameter tuning we can find best performing mtype of mutation and fix this for the other parameter setting.
-3. STOP CRITERIA Use running average of % of last iterations without improvement to stup number of iterations: no change or not worth it to wait for it anymore -> in particular, we use -> Run something for 100.000 it and see how many iterations take for something to change -> and find biggest interval without change
+##### Parameters
+1. INNITIAL TEMPERATURE: There is no significant literature, only physical limits but are too extreme and thus not helpful for us. Instead, use acceptance probabilities plots to tune parameters -> alpha between 0 and 1. beta and iinitial can be anything...  c and d not sure...
+Mutation does not need parameters, so not need to pick it :), meaning before parameter tuning we can find best performing mtype of mutation and fix this for the other parameter setting.
+
+3. STOP PARTICULAR RUN Use running average of % of last iterations without improvement to stup number of iterations: no change or not worth it to wait for it anymore -> in particular, we use -> Run something for 100.000 it and see how many iterations take for something to change -> and find biggest interval without change
+-> 
+
 4. And also let it cool down: meaning stopping criteria: When letting it cool, let it get really close to zero AND no changes -> because first condition is quivalent to second we can just have first, it will guarantee low enough temperature
 
-6. nmax: not needed
-7. optimal_solution - not added to results, only mentioned in discussion to see if we also converged to optimal
+5. NUMBER OF STOP RUNS CRITERIA: Algorithm 1 lecture 3, as
+
+6. NMAX: MAX NUMBER OF ITERATIONS: Not needed
+
+7. OPTIMAL SOLUTIONS - not added to results, only mentioned in discussion to see if we also converged to optimal
 8. Parameters of annealing:
 
+###### Tests
+1. Say with some confidence that swap performs better than insert -> have all posible combination of algorithms in a table and likelyhood of it
+PABLO
+
+Entire process is stochastic by definition, innital condition should also be stochastic
 
 
 - Find relationship between curves of acceptance probabilities and performance (score) -> we can argue that it will scale for bigger cities.
@@ -102,5 +122,4 @@ https://cs.stackexchange.com/questions/11126/initial-temperature-in-simulated-an
 
 - No time for parameter tuning algorithm 
   
-10. Whether or not we random initialize each run or not -> we think we should, *"The same starting route (shuffle) can have differential impact for different methods. To avoid this bias, we need to shuffle each starting route for each run, despite fixing all other parameters"*
 
