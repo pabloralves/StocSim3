@@ -71,7 +71,8 @@ Let others know what you are going to code BEFORE you start! Here.
 6. Whether or not we random initialize each run or not -> we think we should, *"The same starting route (shuffle) can have differential impact for different methods. To avoid this bias, we need to shuffle each starting route for each run, despite fixing all other parameters"*
 
 #### IDEA 1. Find parameters (number of simulations & iterations/sim) in the literature:
-<> This paper is very old, so we use significantly more iterations (epochs) than is done here, while still having significantly less computation time. I don't see what information can be useful but i might very well have missed it. In that case please enlighten me :-)
+<!--- This paper is very old, so we use significantly more iterations (epochs) than is done here, while still having significantly less computation time. I don't see what information can be useful but i might very well have missed it. In that case please enlighten me :-)
+-->
 1. https://repository.lib.ncsu.edu/bitstream/handle/1840.4/5622/1983_0094.pdf?sequence=1
 2. https://www.sciencedirect.com/science/article/abs/pii/S0743731596901215
 3. https://link.springer.com/chapter/10.1007/0-387-28356-0_7
