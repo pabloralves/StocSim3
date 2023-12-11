@@ -83,14 +83,14 @@ It would be like the one in our last assignments
 
 
 #### Meeting consensus
-1. Innitial temperature: There is no significant literature, only physical limits but are too extreme and thus not helpful for us. Instead, use acceptance probabilities plots to tune parameters -> 
-2. STOP CRITERIA Use running average of % of last iterations without improvement to stup number of iterations: no change or not worth it to wait for it anymore -> in particular, we use -> Run something for 100.000 it and see how many iterations take for something to change -> and find biggest interval without change
+1. Innitial temperature: There is no significant literature, only physical limits but are too extreme and thus not helpful for us. Instead, use acceptance probabilities plots to tune parameters -> alpha between 0 and 1. beta and iinitial can be anything...  c and d not sure...
+2. Mutation does not need parameters, so not need to pick it :), meaning before parameter tuning we can find best performing mtype of mutation and fix this for the other parameter setting.
+3. STOP CRITERIA Use running average of % of last iterations without improvement to stup number of iterations: no change or not worth it to wait for it anymore -> in particular, we use -> Run something for 100.000 it and see how many iterations take for something to change -> and find biggest interval without change
+4. And also let it cool down: meaning stopping criteria: When letting it cool, let it get really close to zero AND no changes -> because first condition is quivalent to second we can just have first, it will guarantee low enough temperature
 
-3. 
-4. Stopping criteria: When letting it cool, let it get really close to zero
-5. nmax: not needed
-6. optimal_solution - not added to results, only mentioned in discussion to see if we also converged to optimal
-7. Parameters of annealing:
+6. nmax: not needed
+7. optimal_solution - not added to results, only mentioned in discussion to see if we also converged to optimal
+8. Parameters of annealing:
 
 
 
