@@ -39,10 +39,7 @@
 ## Rules
 Let others know what you are going to code BEFORE you start! Here.
 
-
-
 ## Method
-
 
 ### Things to measure/test
 1. Check if optimal solution is reached (and if so, stop sim)
@@ -82,3 +79,28 @@ Let others know what you are going to code BEFORE you start! Here.
 
 #### IDEA 2. Use Stopping Algorithm to find optimal number of runs (Algorithm 1 of Lecture 3)
 It would be like the one in our last assignments
+
+
+
+#### Meeting consensus
+1. Innitial temperature: There is no significant literature, only physical limits but are too extreme and thus not helpful for us. Instead, use acceptance probabilities plots to tune parameters -> 
+2. STOP CRITERIA Use running average of % of last iterations without improvement to stup number of iterations: no change or not worth it to wait for it anymore -> in particular, we use -> Run something for 100.000 it and see how many iterations take for something to change -> and find biggest interval without change
+
+3. 
+4. Stopping criteria: When letting it cool, let it get really close to zero
+5. nmax: not needed
+6. optimal_solution - not added to results, only mentioned in discussion to see if we also converged to optimal
+7. Parameters of annealing:
+
+
+
+- Find relationship between curves of acceptance probabilities and performance (score) -> we can argue that it will scale for bigger cities.
+
+- Use acceptance plots to show how sim is good, as acceptance prob goes to zero in the end, but on big dataset other params will do better
+
+https://cs.stackexchange.com/questions/11126/initial-temperature-in-simulated-annealing-algorithm
+
+- No time for parameter tuning algorithm 
+  
+10. Whether or not we random initialize each run or not -> we think we should, *"The same starting route (shuffle) can have differential impact for different methods. To avoid this bias, we need to shuffle each starting route for each run, despite fixing all other parameters"*
+
