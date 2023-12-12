@@ -25,8 +25,9 @@
 - [X] Report: Methods: text and understanding (8/12)
 - [X] Improve Jasper's code
 - [X] Learn how to properly do stat testing (10/12 w/ Juan)
+- [X] Fix 2-Opt function to use current iteration to select which pair to consider
 - [ ] Review additional stat testing (10/12)
-- [ ] Add confidence interval to code -> several runs conf. of score (11/12)
+- [ ] Add confidence interval to code -> several runs conf. of score (12/12)
 - [ ] Add methods discussed to report (12/12)
 - [ ] Compare statistically different mutation method (12/12)
 
@@ -41,7 +42,7 @@
 - [X] Report: Methods: 3 algorithms (11/12). No information was found, added brief description.
 - [X] Report: Annealing algorthm (11/12)
 - [X] Stat testing: find how to add T-Test, U-Test... (11/12)
-- [ ] 2-OPT code
+- [X] 2-OPT code
 
 
 ## Rules
