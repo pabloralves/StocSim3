@@ -26,16 +26,17 @@
 - [X] Improve Jasper's code
 - [X] Learn how to properly do stat testing (10/12 w/ Juan)
 - [X] Fix 2-Opt function to use current iteration to select which pair to consider
-- [ ] Review additional stat testing (10/12)
+- [X] Review additional stat testing (10/12)
 - [ ] Add confidence interval to code -> several runs conf. of score (12/12)
-- [ ] Add methods discussed to report (12/12)
-- [ ] Compare statistically different mutation method (12/12)
+- [X] Add methods/param setting discussed to report (12/12)
+- [ ] Polish methods/writing
+- [ ] Add table and best route plot to report
 
 ### JASPER
 - [X] Find best data structure for the soluton (numpy?)
 - [X] First working code
 - [X] Implement simulated annealing and several mutation functions
-- [ ] Innitial temperature setting / stopping criteria (once 2-OPT is ready)
+- [X] Innitial temperature setting / stopping criteria (once 2-OPT is ready)
 
  ### JUAN
 - [X] Report: Research and understand annealing 
@@ -43,6 +44,7 @@
 - [X] Report: Annealing algorthm (11/12)
 - [X] Stat testing: find how to add T-Test, U-Test... (11/12)
 - [X] 2-OPT code
+- [ ] Review writing/report
 
 
 ## Rules
