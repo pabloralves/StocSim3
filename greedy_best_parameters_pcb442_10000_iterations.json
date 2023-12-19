@@ -1,0 +1,150 @@
+{
+  "swap": {
+    "logarithmic_cool": {
+      "cooling_schedule": "logarithmic_cool",
+      "cooling_parameters": {
+        "c": 128.8464082504076
+      }
+    },
+    "linear_cool": {
+      "cooling_schedule": "linear_cool",
+      "cooling_parameters": {
+        "initial": 1.4347164162317085,
+        "slope": 8.704566407735705
+      }
+    },
+    "arithmetic_geometric_cool": {
+      "cooling_schedule": "arithmetic_geometric_cool",
+      "cooling_parameters": {
+        "initial": 6421.519896737584,
+        "alpha": 0.4575428296527956,
+        "beta": 34.152467863443945
+      }
+    },
+    "exponential_cool": {
+      "cooling_schedule": "exponential_cool",
+      "cooling_parameters": {
+        "initial": 816.2954279253726,
+        "alpha": 0.6560289405102137
+      }
+    },
+    "quadratic_cool": {
+      "cooling_schedule": "quadratic_cool",
+      "cooling_parameters": {
+        "initial": 190.34776955752295,
+        "alpha": 0.26760969810268687
+      }
+    }
+  },
+  "insert": {
+    "logarithmic_cool": {
+      "cooling_schedule": "logarithmic_cool",
+      "cooling_parameters": {
+        "c": 18.975642569220383
+      }
+    },
+    "linear_cool": {
+      "cooling_schedule": "linear_cool",
+      "cooling_parameters": {
+        "initial": 3.609696319443021,
+        "slope": 8.852674591317633
+      }
+    },
+    "arithmetic_geometric_cool": {
+      "cooling_schedule": "arithmetic_geometric_cool",
+      "cooling_parameters": {
+        "initial": 6.734413742401625,
+        "alpha": 0.17133546076914907,
+        "beta": 5.211203649603686
+      }
+    },
+    "exponential_cool": {
+      "cooling_schedule": "exponential_cool",
+      "cooling_parameters": {
+        "initial": 100.6856135639029,
+        "alpha": 0.9191655351636776
+      }
+    },
+    "quadratic_cool": {
+      "cooling_schedule": "quadratic_cool",
+      "cooling_parameters": {
+        "initial": 319.44586655507646,
+        "alpha": 0.6021358105495883
+      }
+    }
+  },
+  "inversion": {
+    "logarithmic_cool": {
+      "cooling_schedule": "logarithmic_cool",
+      "cooling_parameters": {
+        "c": 58.5927019775939
+      }
+    },
+    "linear_cool": {
+      "cooling_schedule": "linear_cool",
+      "cooling_parameters": {
+        "initial": 209.12227191767818,
+        "slope": 8.015443725058386
+      }
+    },
+    "arithmetic_geometric_cool": {
+      "cooling_schedule": "arithmetic_geometric_cool",
+      "cooling_parameters": {
+        "initial": 2860.9468845454394,
+        "alpha": 0.3606411226009522,
+        "beta": 30.649680166296278
+      }
+    },
+    "exponential_cool": {
+      "cooling_schedule": "exponential_cool",
+      "cooling_parameters": {
+        "initial": 35.25944850928221,
+        "alpha": 0.9856747821801237
+      }
+    },
+    "quadratic_cool": {
+      "cooling_schedule": "quadratic_cool",
+      "cooling_parameters": {
+        "initial": 603.6064013323371,
+        "alpha": 0.6433037306756357
+      }
+    }
+  },
+  "two_opt": {
+    "logarithmic_cool": {
+      "cooling_schedule": "logarithmic_cool",
+      "cooling_parameters": {
+        "c": 150.48128633240844
+      }
+    },
+    "linear_cool": {
+      "cooling_schedule": "linear_cool",
+      "cooling_parameters": {
+        "initial": 29.407464394313408,
+        "slope": 0.051039760736263595
+      }
+    },
+    "arithmetic_geometric_cool": {
+      "cooling_schedule": "arithmetic_geometric_cool",
+      "cooling_parameters": {
+        "initial": 8896.631748906197,
+        "alpha": 0.050418085464046636,
+        "beta": 17.13988442183981
+      }
+    },
+    "exponential_cool": {
+      "cooling_schedule": "exponential_cool",
+      "cooling_parameters": {
+        "initial": 315.5804783722634,
+        "alpha": 0.24876919710819279
+      }
+    },
+    "quadratic_cool": {
+      "cooling_schedule": "quadratic_cool",
+      "cooling_parameters": {
+        "initial": 11.81795756218935,
+        "alpha": 0.9638246095105609
+      }
+    }
+  }
+}
